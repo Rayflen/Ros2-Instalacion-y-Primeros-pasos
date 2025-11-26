@@ -8,7 +8,7 @@ Robot operating system 2 es un marco de desarrollo para robots que proporciona t
 
 ROS2 es un entándar para proyectos de robótica, desde robots moviles hasta brazos manipuladores y drones. Teniendo esto en cuenta estas son unas de las razones del por qué te recomiendo aprender ROS2:
 
-- Comuncacion robusta basada en DDS 
+- Comunicación robusta basada en DDS 
 - Arquitectura modular: cada componente de tu robot sera un nodo independiente
 - Ecosistema gigante: tienes miles de paquetes listos para usar
 - Una comunidad activa: tendrás soporte, tutoriales y proyectos para cualquier nivel
