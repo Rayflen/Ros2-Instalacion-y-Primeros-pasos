@@ -43,4 +43,26 @@ sudo apt update
 sudo apt upgrade
 sudo apt install ros-jazzy-desktop
 ```
+Y por ahora solo nos queda agregar la siguiente linea de codigo a nuestro archivo bashsrc
+
+```bash
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+Con esto cada vez que abrimos una terminal, automaticamente trabajaremos en ROS2
+
+un ejemplo rapido para probar su funcionaliad es abrir una terminal y ejecutar
+
+```bash
+ros2 run demo_nodes_cpp talker
+```
+y en otra terminal ejecutaremos 
+
+```bash
+ros2 run demo_nodes_py listener
+```
+
+y podrás ver como ya tenemos un hablador y un lector, 2 nodos unidos por 1 topico.
+
 
