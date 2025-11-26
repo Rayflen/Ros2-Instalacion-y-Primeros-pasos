@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="./Ros2image.png">
+</div>
+
 # 🚀 Guía de Instalación y Primeros Pasos con ROS 2 en Ubuntu
 
 ¡Bienvenido al emocionante mundo de la robótica! Este repositorio te guiará en los primeros pasos para configurar y trabajar con **ROS 2 (Robot Operating System 2)**, el sistema operativo de robots más utilizado en el mundo. Si alguna vez has soñado con crear un robot autónomo, ¡este es el lugar donde todo comienza!
