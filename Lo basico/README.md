@@ -19,3 +19,8 @@ Un sistema típico con ROS 2 se basa en varios conceptos fundamentales — cada 
 - **Distribución**: los nodos pueden correr en la misma máquina o en máquinas distintas — ideal para sistemas con hardware heterogéneo, carga distribuida o integración de múltiples subsistemas.  
 - **Depuración y documentación más sencilla**: con la visualización del grafo y la separación modular, puedes entender cómo fluye la información, detectar errores o conflictos, y documentar de forma clara tu arquitectura.
 
+Orden a aprender:
+- Nodos
+- Topicos
+- Servicios
+- Visualización rqt
