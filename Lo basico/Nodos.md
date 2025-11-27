@@ -1,6 +1,3 @@
-# Introducción
-Como ya sabes, ROS es un framework de software abiero para desarrollar robots. Pero no es un sistema operativo en sí sino que provee una infraestructuira para que distintos sensores, controladores, algoritmos, etc. Puedan comunicarse por ende ahora veremos
-
 # NODOS
 
 Un sistema robótico completo se compone de muchos nodos, los cuales cada uno tendra una funcion determinada por el usuario y estos pueden intercambiar información.
