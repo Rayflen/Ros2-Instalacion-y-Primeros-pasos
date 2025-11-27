@@ -11,5 +11,5 @@ Y despues actualizamos:
 sudo apt remove ros2-apt-source
 sudo apt update
 sudo apt autoremove
-sudo apt upgrade # Consider upgrading for packages previously shadowed.
+sudo apt upgrade
 ```
