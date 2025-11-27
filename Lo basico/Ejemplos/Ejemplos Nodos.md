@@ -32,6 +32,20 @@ ros2 run turtlesim turtlesim_node --ros-args --rema __node:=my_turtle
 ```
 Si mantenias abierto el turtlesim anterior, se te abrirá una nueva ventana (asi que toma este codigo como un ejecutable más nombre) y cuando revises la lista de nodos verás uno nuevo con el nombre de "my_turtle" aparte del que ya tenías
 
+
+Resumen
+
+## Comandos útiles para Nodos en ROS 2
+
+| Función / Qué hace | Comando (CLI) |
+|-------------------|----------------|
+| Ejecutar un nodo / lanzar un ejecutable de un paquete | `ros2 run <package_name> <executable_name>`|
+| Listar todos los nodos activos actualmente | `ros2 node list` |
+| Mostrar información detallada de un nodo específico (qué tópicos publica/suscribe, servicios/acciones, etc.) | `ros2 node info <node_name>`|
+| Ejecutar un nodo pero asignándole un nombre personalizado (remapeo de nombre de nodo) | `ros2 run <package> <executable> --ros-args --remap __node:=<new_node_name>` |
+| Listar incluso nodos “ocultos” (opcional, depende de versión) | `ros2 node list --all` |
+
+
 # Ya pero, por qué es importante eso?
 
 Si tu robot tiene muchos componentes los noddos te permiten estructurar todo esto de forma clara y ordenada. Sobre toddo con los comandos de inspeccion "node list, node info" podras buscarlos facilmente aún más cuando los remapeas y les das un nombre unico.

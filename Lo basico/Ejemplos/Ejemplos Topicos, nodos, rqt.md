@@ -25,6 +25,7 @@ ros2 run turtlesim turtle_teleop_key
 ```
 
 ```bash
+#Terminal 3
 rqt_graph
 ```
 
@@ -59,7 +60,7 @@ Si quisieras un movimiento continuo puedes omitir el --once
     <img src="./TurtleForzada manualmente.png">
 </div>
 
-y ahora si revisamos nuevamente el rqt_graph y desmarcamos la casiga debug nos quedaría de esta manera
+y ahora si revisamos nuevamente el rqt_graph en una nueva terminal y desmarcamos la casiga debug nos quedaría de esta manera
 
 <div align="center">
     <img src="./Node_graph_completo.png">
